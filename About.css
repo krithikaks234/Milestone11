@@ -1,0 +1,182 @@
+/* General About Page Styling */
+.about {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Header Styling */
+.about-header {
+  margin-bottom: 50px;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  color: #9b3d3d; /* Warm red */
+  font-weight: bold;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Added a stronger shadow for depth */
+  max-width: 900px;
+  margin: 0 auto;
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.contact-section:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Slightly larger shadow on hover */
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: #9b3d3d;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact-form label {
+  font-size: 1.1rem;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px; /* Increased padding for better spacing */
+  font-size: 1rem;
+  border-radius: 8px; /* More rounded corners */
+  border: 1px solid #ddd;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9; /* Soft background color */
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* Adjusting the message box size */
+.contact-form textarea {
+  height: 180px; /* Make the message box larger */
+  resize: none; /* Disable resizing */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #9b3d3d;
+  background-color: #fff; /* Lighter background color on focus */
+  outline: none;
+}
+
+.submit-button {
+  background-color: #9b3d3d;
+  color: #fff;
+  padding: 14px 30px; /* Slightly larger padding for the button */
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+  background-color: #801c1c;
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.submit-button:active {
+  transform: scale(0.98); /* Slight shrink effect on click */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 20px;
+  }
+
+  .contact-section h2 {
+    font-size: 2rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+  }
+
+  .submit-button {
+    font-size: 1rem;
+    padding: 12px 25px;
+  }
+}
+
+
+/* Footer Styling */
+.about-footer {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+  text-align: center;
+}
+
+.about-footer .socials a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #9b3d3d;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.about-footer .socials a:hover {
+  color: #801c1c;
+}
+
+.about-footer p {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+  }
+
+  .submit-button {
+    font-size: 1rem;
+  }
+
+  .about-footer .socials a {
+    font-size: 1rem;
+  }
+}

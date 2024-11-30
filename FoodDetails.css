@@ -1,0 +1,107 @@
+/* Container styling */
+.cake-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9; /* Subtle light background */
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif; /* Changed font for freshness */
+}
+
+/* Card styling */
+.cake-details-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Slightly wider max width */
+  padding: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cake-details-card:hover {
+  transform: translateY(-5px); /* Hover effect for card */
+}
+
+/* Image styling */
+.cake-details-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* Info section */
+.cake-details-info {
+  text-align: center;
+  padding: 10px;
+}
+
+.cake-details-name {
+  font-size: 2.2rem;
+  color: #9b3d3d; /* Slightly softer red */
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.cake-details-info p {
+  font-size: 1.1rem;
+  color: #444;
+  margin: 8px 0;
+}
+
+/* Button styling */
+.add-to-cart-btn {
+  background-color: #9b3d3d; /* Soft red */
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #801c1c; /* Darker red on hover */
+  transform: translateY(-3px); /* Subtle lift effect */
+}
+
+/* Loading message */
+.loading {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #9b3d3d;
+  margin-top: 50px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .cake-details-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .cake-details-image {
+    height: 250px; /* Adjust height for smaller screens */
+  }
+
+  .cake-details-name {
+    font-size: 1.8rem;
+  }
+
+  .cake-details-info p {
+    font-size: 1rem;
+  }
+
+  .add-to-cart-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,77 @@
+.home {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
+  background-color: #f4f4f9; /* Soft light background */
+}
+
+body{
+  overflow-x: hidden;
+
+}
+.featured-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.foodwala {
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  color: #2e2e2e; /* Darker text color */
+  font-size: 2.5rem; /* Larger font size */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.featured-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+.caption {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.caption h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #d37d4b; /* Rich caramel color */
+}
+
+.caption p {
+  font-size: 18px;
+  color: #6f4f4f; /* Warm, brownish text */
+  line-height: 1.5;
+}
+
+.cta-button {
+  margin-top: 30px;
+  padding: 12px 25px;
+  background-color: #ff9a8b; /* Soft coral */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #f46a6a; /* Darker coral on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.cta-button:focus {
+  outline: none;
+}

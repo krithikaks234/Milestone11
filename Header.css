@@ -1,0 +1,59 @@
+/* General header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #9b3d3d; /* Warm red background */
+  color: #fff; /* White text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Logo styling */
+.logo {
+  font-size: 2rem; /* Bigger logo font */
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  letter-spacing: 2px;
+  color: #fff; /* Ensure logo is white */
+}
+
+/* Navigation styling */
+.navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 30px; /* Add spacing between navigation links */
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  font-size: 1.4rem; /* Larger font size for navigation links */
+  font-weight: bold;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: #ffe4b5; /* Light cream color for links */
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.navigation li a:hover {
+  color: #ffdab9; /* Softer pastel hover effect */
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .logo {
+    font-size: 2rem; /* Adjust logo size for small screens */
+  }
+
+  .navigation ul {
+    gap: 15px; /* Reduce gap for smaller screens */
+  }
+
+  .navigation li {
+    font-size: 1.2rem; /* Smaller font size for nav links */
+  }
+}

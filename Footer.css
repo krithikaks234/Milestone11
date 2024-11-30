@@ -1,0 +1,43 @@
+/* General styling for the footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* Styling for footer text */
+.footer p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+/* Link styling */
+.footer a {
+  color: #f1a541; /* A warm golden color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #f18a41; /* Darker gold for hover effect */
+}
+
+/* Styling for the copyright */
+.footer p:first-child {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 768px) {
+  .footer p {
+    font-size: 0.9rem;
+  }
+}
